@@ -1,0 +1,70 @@
+buildscript {
+	ext {
+		springBootVersion = '2.0.4.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	configurations {
+    providedRuntime
+    //compile.exclude(group: 'ch.qos.logback')
+}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'rtl.tot.corp.mrex.prcn.price.catalog.cmd'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+
+
+
+bootJar {
+    baseName = "${rootProject.name}"
+    version = '0.0.1'
+}
+
+jar {
+  onlyIf { true }
+}
+
+
+
+
+repositories {
+	mavenCentral()
+	 maven {
+        url project.property("repository.releases.url")
+        credentials {
+            username project.property("repository.username")
+            password project.property("repository.password")
+        }
+    }
+	  	
+}
+ext {
+	set('azureVersion', '2.0.3')
+	    eventAdapterASBVersion = '0.0.1'
+	     springfoxVersion = '2.9.2'
+	      springBootVersion = '2.0.4.RELEASE'
+}
+	  	
+	  	
+dependencies {
+		compile "corp.falabella.event:event-adapter-azureservicebus-support:${eventAdapterASBVersion}"
+   	compileOnly("org.projectlombok:lombok:1.16.10")
+   	compile "com.microsoft.azure:spring-data-cosmosdb:${azureVersion}"
+   	compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+	testCompile ("org.springframework.boot:spring-boot-starter-test:${springBootVersion}"){
+	 exclude group: 'com.jayway.jsonpath' 
+	 }
+	//swagger
+	compile "io.springfox:springfox-swagger-ui:${springfoxVersion}"
+    compile "io.springfox:springfox-swagger2:${springfoxVersion}"
+ }
