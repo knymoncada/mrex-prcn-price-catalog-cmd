@@ -1,6 +1,8 @@
 package rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers;
 
+
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -14,12 +16,15 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.application.adapters.CreatePriceCommandBus;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.application.adapters.CreatePriceCommandImpl;
+import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.application.adapters.DecoratorCreatePriceCommandBus;
+import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.application.adapters.DecoratorUpdatePriceCommandBus;
+import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.application.adapters.UpdatePriceCommandImpl;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.domain.model.EventProperties;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.constants.RestConstants;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price;
+import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.UpdatePrice;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @RestController
@@ -34,7 +39,9 @@ public class PriceController {
 	@Autowired
 	private EventProperties eventProperties;
 	@Autowired
-	private CreatePriceCommandBus cmdBus;
+	private DecoratorCreatePriceCommandBus cmdBus;
+	@Autowired
+	private DecoratorUpdatePriceCommandBus cmdBusUpdated;
 
 	@RequestMapping(path = "/mrex/pctm/v1.0/price-catalog", method = POST)
 	@ApiOperation(value = "Add Price", response = APIResponse.class)
@@ -77,6 +84,52 @@ public class PriceController {
 		return new ResponseEntity<APIResponse>(this.buildSuccessRes("Price Created"), HttpStatus.OK);
 	}
 
+	
+
+	@RequestMapping(path = "/mrex/pctm/v1.0/price-catalog", method = PUT)
+	@ApiOperation(value = "Update Price", response = APIResponse.class)
+	public ResponseEntity<APIResponse> updatePrice(@RequestBody UpdatePrice request) {
+
+		log.info(context.getHeader("Country") + context.getHeader("Commerce") + context.getHeader("Channel"));
+
+		eventProperties.setChannel(context.getHeader("Channel"));
+		eventProperties.setCommerce(context.getHeader("Commerce"));
+		eventProperties.setCountry(context.getHeader("Country"));
+		eventProperties.setMimeType(context.getHeader("Content-Type"));
+		eventProperties.setVersion("1.0");
+
+		// E2EContext e2e = new E2EContext();
+		// try {
+		// e2e.setE2EContext(headers);
+		// } catch (E2EHelperNotFoundException e) {
+		// log.error("Error E2EContext setting headers");
+		//
+		// }
+		// e2e.setServiceRef("Appointment");
+
+		log.info("Update Price request.", request);
+		try {
+
+			UpdatePriceCommandImpl cmd = new UpdatePriceCommandImpl(request);
+
+			if (cmdBusUpdated.execute(cmd))
+				log.info("Price Updated successful ", request.getSku());
+			else {
+				log.info("Price not Updated ", request.getSku());
+				return new ResponseEntity<APIResponse>(this.buildErrorRes("Price not Updated"), HttpStatus.BAD_REQUEST);
+			}
+		} catch (Exception e) {
+
+			log.debug("Price Updated Exception ", request.getSku());
+			return new ResponseEntity<APIResponse>(this.buildErrorRes(e.getLocalizedMessage()), HttpStatus.BAD_REQUEST);
+		}
+
+		return new ResponseEntity<APIResponse>(this.buildSuccessRes("Price Updated"), HttpStatus.OK);
+	}
+
+	
+
+	
 	/**
 	 * API success response
 	 *

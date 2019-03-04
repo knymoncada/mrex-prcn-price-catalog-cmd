@@ -59,12 +59,16 @@ ext {
 dependencies {
 		compile "corp.falabella.event:event-adapter-azureservicebus-support:${eventAdapterASBVersion}"
    	compileOnly("org.projectlombok:lombok:1.16.10")
+   	implementation('org.springframework.boot:spring-boot-starter-actuator')
    	compile "com.microsoft.azure:spring-data-cosmosdb:${azureVersion}"
    	compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
 	testCompile ("org.springframework.boot:spring-boot-starter-test:${springBootVersion}"){
 	 exclude group: 'com.jayway.jsonpath' 
 	 }
 	//swagger
+	// https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb-spring-boot-starter
+	compile group: 'com.microsoft.azure', name: 'azure-documentdb-spring-boot-starter', version: '2.0.5'
+	
 	compile "io.springfox:springfox-swagger-ui:${springfoxVersion}"
     compile "io.springfox:springfox-swagger2:${springfoxVersion}"
  }

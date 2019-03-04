@@ -12,9 +12,10 @@ import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.domain.p
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price.Detraction;
 import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price.Tax;
+import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.UpdatePrice;
 
 @Data
-public class CreatePriceCommandImpl implements CreatePriceCommand<Price> {
+public class UpdatePriceCommandImpl implements CreatePriceCommand<UpdatePrice> {
 
 	@Id
 	@NotNull
@@ -42,7 +43,7 @@ public class CreatePriceCommandImpl implements CreatePriceCommand<Price> {
 		Double percentDetraction;
 	}
 
-	public CreatePriceCommandImpl(Price price) {
+	public UpdatePriceCommandImpl(UpdatePrice price) {
 		super();
 		this.sku = price.getSku();
 		this.store = price.getStore();
@@ -50,7 +51,7 @@ public class CreatePriceCommandImpl implements CreatePriceCommand<Price> {
 		this.regularPrice = price.getRegularPrice();
 		this.promotionPrice = price.getPromotionPrice();
 		this.detraction.setCodeDetraction(price.getDetraction().getCodeDetraction());
-		for (rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price.Tax tax
+		for (rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.UpdatePrice.Tax tax
 				: price.getTaxes()) {
 			Tax newTax = new Tax();
 			newTax.setAmountTax(tax.getAmountTax());

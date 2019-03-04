@@ -8,19 +8,19 @@ import rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.domain.p
 
 @Slf4j
 @Component
-public class CreatePriceHandler implements Handler<CreatePriceCommandImpl> {
+public class UpdatePriceHandler implements Handler<UpdatePriceCommandImpl> {
 
 	@Autowired
 	PriceServiceApplicationImpl service;
 	
-	public CreatePriceHandler(PriceServiceApplicationImpl service) {
+	public UpdatePriceHandler(PriceServiceApplicationImpl service) {
 		this.service = service;
 	}
 
 	
 	@Override
-	public boolean handle(CreatePriceCommandImpl cmd) throws Exception {
-		return service.addPrice((CreatePriceCommandImpl) cmd);
+	public boolean handle(UpdatePriceCommandImpl cmd) throws Exception {
+		return service.updatePrice((UpdatePriceCommandImpl) cmd);
 		
 	}
 

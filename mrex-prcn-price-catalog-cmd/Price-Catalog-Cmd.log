@@ -1,270 +1,77 @@
-2019-02-26 12:19:20 INFO - Starting MrexPrcnPriceCatalogCmdApplication on MOEXT_LAVER with PID 41976 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:20 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:20 INFO - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d04d3d: startup date [Tue Feb 26 12:19:20 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:22 INFO - Tomcat initialized with port(s): 80 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:22 INFO - Initializing ProtocolHandler ["http-nio-80"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:22 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:22 INFO - Starting Servlet Engine: Apache Tomcat/8.5.32 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:22 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Root WebApplicationContext: initialization completed in 2799 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Servlet dispatcherServlet mapped to [/] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Mapping filter: 'characterEncodingFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Mapping filter: 'httpPutFormContentFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Mapping filter: 'requestContextFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:23 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:26 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/mrex/pctm/v1.0/price-catalog],methods=[POST]}" onto public org.springframework.http.ResponseEntity<rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse> rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers.PriceController.createProduct(rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:27 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d04d3d: startup date [Tue Feb 26 12:19:20 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Registering beans for JMX exposure on startup - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Starting beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Starting ProtocolHandler ["http-nio-80"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28ERROR - Failed to start connector [Connector[HTTP/1.1-80]] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
-	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
-	at rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplication.main(MrexPrcnPriceCatalogCmdApplication.java:10)
-Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
-	... 13 common frames omitted
-Caused by: java.net.BindException: Address already in use: bind
-	at sun.nio.ch.Net.bind0(Native Method)
-	at sun.nio.ch.Net.bind(Net.java:433)
-	at sun.nio.ch.Net.bind(Net.java:425)
-	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
-	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
-	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
-	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
-	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
-	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
-	... 14 common frames omitted
-2019-02-26 12:19:28 INFO - Pausing ProtocolHandler ["http-nio-80"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Stopping ProtocolHandler ["http-nio-80"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Destroying ProtocolHandler ["http-nio-80"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28ERROR - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
-
-Action:
-
-Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
- - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d04d3d: startup date [Tue Feb 26 12:19:20 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Stopping beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:19:28 INFO - Unregistering JMX-exposed beans on shutdown - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:30 INFO - Starting MrexPrcnPriceCatalogCmdApplication on MOEXT_LAVER with PID 41180 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:30 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:30 INFO - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d04d3d: startup date [Tue Feb 26 12:20:30 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Tomcat initialized with port(s): 8086 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Initializing ProtocolHandler ["http-nio-8086"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Starting Servlet Engine: Apache Tomcat/8.5.32 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Root WebApplicationContext: initialization completed in 2673 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Servlet dispatcherServlet mapped to [/] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Mapping filter: 'characterEncodingFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Mapping filter: 'httpPutFormContentFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:32 INFO - Mapping filter: 'requestContextFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:33 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:35 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/mrex/pctm/v1.0/price-catalog],methods=[POST]}" onto public org.springframework.http.ResponseEntity<rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse> rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers.PriceController.createProduct(rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:36 INFO - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d04d3d: startup date [Tue Feb 26 12:20:30 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Registering beans for JMX exposure on startup - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Starting beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Starting ProtocolHandler ["http-nio-8086"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Using a shared selector for servlet write/read - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Tomcat started on port(s): 8086 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:20:37 INFO - Started MrexPrcnPriceCatalogCmdApplication in 7.987 seconds (JVM running for 9.555) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:46 INFO - Initializing Spring FrameworkServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:46 INFO - FrameworkServlet 'dispatcherServlet': initialization started - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:46 INFO - FrameworkServlet 'dispatcherServlet': initialization completed in 64 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:47 INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:47 INFO - Create Price request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:47 INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:47ERROR - priceCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:33:47 INFO - Price not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:35:06 INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:35:06 INFO - Create Price request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:35:06 INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:35:06 INFO - Event published: {"sku":"123456789012","store":114,"currentPrice":123.123,"regularPrice":123.123} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:35:06 INFO - Price Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:42:23 WARN - Connection.onTransportError: hostname:tot-corp-orion-int-qa.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:42:23ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:42:23 INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:42:23 WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
-	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
-	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
-	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
-	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
-	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
-	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
-	at java.lang.Thread.run(Thread.java:748)
-2019-02-26 12:42:23 WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:42:23 WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
-	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
-	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
-	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
-	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
-	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
-	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
-	at java.lang.Thread.run(Thread.java:748)
-2019-02-26 12:42:23 WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:11 INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:11 INFO - Create Price request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:11 INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:11 INFO - Recreating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:12 INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:12 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:13 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:13 INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:13 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:14 INFO - Event published: {"sku":"123456789012","store":114,"currentPrice":123.123,"regularPrice":123.123} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 12:45:14 INFO - Price Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:21:25 WARN - Connection.onTransportError: hostname:tot-corp-orion-int-qa.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:21:33ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:21:33 INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:21:33 WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
-	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
-	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
-	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
-	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
-	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
-	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
-	at java.lang.Thread.run(Thread.java:748)
-2019-02-26 16:21:34 WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:21:34 WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
-	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
-	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
-	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
-	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
-	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
-	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
-	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
-	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
-	at java.lang.Thread.run(Thread.java:748)
-2019-02-26 16:21:34 WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:16 INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:16 INFO - Create Price request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:16 INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:17 INFO - Recreating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:17 INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:17 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:19 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:19 INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:19 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:19 INFO - Event published: {"sku":"123456789012","store":114,"currentPrice":123.123,"regularPrice":123.123} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:34:19 INFO - Price Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests], using SpringBootContextLoader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Could not detect default resource locations for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Could not detect default configuration classes for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: MrexPrcnPriceCatalogCmdApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Found @SpringBootConfiguration rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplication for test class rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:18 INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4f4da117, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@674eb1f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cdb6bf7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2021db94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c6939e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@10954323, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47c60615, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@69958802, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ff9accd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@654f604a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@12ce2458, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@575e7b9b] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:19 WARN - 
+2019-03-04 10:22:45 INFO - Starting MrexPrcnPriceCatalogCmdApplication on MOEXT_LAVER with PID 19176 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:22:45 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:22:46 INFO - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8c12ac: startup date [Mon Mar 04 10:22:46 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:02 INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:02 INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:02 INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:02 INFO - Starting Servlet Engine: Apache Tomcat/8.5.32 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:02 INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Root WebApplicationContext: initialization completed in 17027 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'characterEncodingFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'webMvcMetricsFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'httpPutFormContentFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'requestContextFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Mapping filter: 'httpTraceFilter' to: [/*] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:03 INFO - Servlet dispatcherServlet mapped to [/] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:04 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:06 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:07 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:07 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:07 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:07 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/mrex/pctm/v1.0/price-catalog],methods=[POST]}" onto public org.springframework.http.ResponseEntity<rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse> rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers.PriceController.createProduct(rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:08 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:09 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:09 INFO - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8c12ac: startup date [Mon Mar 04 10:22:46 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:09 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:09 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Registering beans for JMX exposure on startup - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Starting beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:10 INFO - Using a shared selector for servlet write/read - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:11 INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:23:11 INFO - Started MrexPrcnPriceCatalogCmdApplication in 25.948 seconds (JVM running for 29.208) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:24:36 INFO - Initializing Spring FrameworkServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:24:36 INFO - FrameworkServlet 'dispatcherServlet': initialization started - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:24:36 INFO - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:24:37 WARN - Request method 'GET' not supported - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:26:26 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:26:26 INFO - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8c12ac: startup date [Mon Mar 04 10:22:46 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:26:26 INFO - Stopping beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:26:26 INFO - Unregistering JMX-exposed beans on shutdown - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:56 INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests], using SpringBootContextLoader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:56 INFO - Could not detect default resource locations for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:56 INFO - Could not detect default configuration classes for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: MrexPrcnPriceCatalogCmdApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:56 INFO - Found @SpringBootConfiguration rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplication for test class rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:57 INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:57 INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2021db94, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c6939e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10954323, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@47c60615, org.springframework.test.context.support.DirtiesContextTestExecutionListener@69958802, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ff9accd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@654f604a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12ce2458, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@575e7b9b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@45d33a79, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5b005fb9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@380f5c65] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:57 WARN - 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -273,42 +80,46 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:19 INFO - Starting MrexPrcnPriceCatalogCmdApplicationTests on MOEXT_LAVER with PID 42644 (started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:19 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:19 INFO - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1da51df1: startup date [Tue Feb 26 16:40:19 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:22 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:25 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:26 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:26 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:26 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:26 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/mrex/pctm/v1.0/price-catalog],methods=[POST]}" onto public org.springframework.http.ResponseEntity<rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse> rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers.PriceController.createProduct(rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:27 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:28 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:28 INFO - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1da51df1: startup date [Tue Feb 26 16:40:19 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:28 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:28 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Starting beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Started MrexPrcnPriceCatalogCmdApplicationTests in 11.011 seconds (JVM running for 13.562) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Closing org.springframework.web.context.support.GenericWebApplicationContext@1da51df1: startup date [Tue Feb 26 16:40:19 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-02-26 16:40:29 INFO - Stopping beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:58 INFO - Starting MrexPrcnPriceCatalogCmdApplicationTests on MOEXT_LAVER with PID 15088 (started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:58 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:28:58 INFO - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@11981202: startup date [Mon Mar 04 10:28:58 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:02 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:04 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:05 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:05 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:05 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:05 INFO - Mapped "{[/mrex/pctm/v1.0/price-catalog],methods=[POST]}" onto public org.springframework.http.ResponseEntity<rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.APIResponse> rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.controllers.PriceController.createProduct(rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.infraestructure.adapters.http.rest.domain.Price) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:05 INFO - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:06 INFO - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:06 INFO - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration() - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:06 INFO - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:06 INFO - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:06 INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:07 INFO - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:07 INFO - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:07 INFO - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:07 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:07 INFO - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:08 INFO - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@11981202: startup date [Mon Mar 04 10:28:58 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:08 INFO - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:08 INFO - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Starting beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Started MrexPrcnPriceCatalogCmdApplicationTests in 12.235 seconds (JVM running for 14.798) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Closing org.springframework.web.context.support.GenericWebApplicationContext@11981202: startup date [Mon Mar 04 10:28:58 CLST 2019]; root of context hierarchy - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-04 10:29:09 INFO - Stopping beans in phase 2147483647 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
