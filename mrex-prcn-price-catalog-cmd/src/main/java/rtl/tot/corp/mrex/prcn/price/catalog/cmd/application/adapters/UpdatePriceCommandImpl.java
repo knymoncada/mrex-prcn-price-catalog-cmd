@@ -51,6 +51,9 @@ public class UpdatePriceCommandImpl implements CreatePriceCommand<UpdatePrice> {
 		this.regularPrice = price.getRegularPrice();
 		this.promotionPrice = price.getPromotionPrice();
 		this.detraction.setCodeDetraction(price.getDetraction().getCodeDetraction());
+		this.detraction.setNameDetraction(price.getDetraction().getNameDetraction());
+		this.detraction.setPercentDetraction(price.getDetraction().getPercentDetraction());
+	
 		for (rtl.tot.corp.mrex.prcn.price.catalog.cmd.infraestructure.adapters.http.rest.domain.UpdatePrice.Tax tax
 				: price.getTaxes()) {
 			Tax newTax = new Tax();

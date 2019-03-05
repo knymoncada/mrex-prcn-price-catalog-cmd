@@ -34,6 +34,9 @@ public class CreatePriceCommandImpl implements CreatePriceCommand<Price> {
 	public static class Tax{
 		String tax;
 		Double amountTax;
+		
+		
+		 
 	}
 	@Data
 	public static class Detraction {
@@ -50,6 +53,9 @@ public class CreatePriceCommandImpl implements CreatePriceCommand<Price> {
 		this.regularPrice = price.getRegularPrice();
 		this.promotionPrice = price.getPromotionPrice();
 		this.detraction.setCodeDetraction(price.getDetraction().getCodeDetraction());
+		this.detraction.setNameDetraction(price.getDetraction().getNameDetraction());
+		this.detraction.setPercentDetraction(price.getDetraction().getPercentDetraction());
+		
 		for (rtl.tot.corp.mrex.prcn.price.catalog.cmd.infraestructure.adapters.http.rest.domain.Price.Tax tax
 				: price.getTaxes()) {
 			Tax newTax = new Tax();

@@ -39,7 +39,9 @@ public class DecoratorUpdatePriceCommandBus implements CommandBus<UpdatePriceCom
     			integrationEvent.setStore(command.getStore());
     			integrationEvent.setPromotionPrice(command.getPromotionPrice());
     			integrationEvent.getDetraction().setCodeDetraction(command.getDetraction().getCodeDetraction());
-    		
+    			integrationEvent.getDetraction().setNameDetraction(command.getDetraction().getNameDetraction());
+    			integrationEvent.getDetraction().setPercentDetraction(command.getDetraction().getPercentDetraction());
+       
     			for(Tax tax: command.getTaxes()) {
     				PriceUpdatedIntegrationEvent.Tax newTax = new PriceUpdatedIntegrationEvent.Tax();
     				newTax.setAmountTax(tax.getAmountTax());
