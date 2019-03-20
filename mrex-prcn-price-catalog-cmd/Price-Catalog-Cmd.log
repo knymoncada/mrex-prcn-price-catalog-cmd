@@ -1,27 +1,46 @@
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:14 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:13 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:14DEBUG - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1972b0, started on Tue Mar 05 16:16:37 CLST 2019 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:14 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:15 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16 INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Auditevents' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Httptrace' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16DEBUG - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
-2019-03-08 00:09:16 INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests], using SpringBootContextLoader - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Could not detect default resource locations for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Could not detect default configuration classes for test class [rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests]: MrexPrcnPriceCatalogCmdApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Found @SpringBootConfiguration rtl.tot.corp.mrex.prcn.price.catalog.cmd.MrexPrcnPriceCatalogCmdApplication for test class rtl.tot.corp.mrex.prcn.price.catalog.cmd.mrexprcnpricecatalogcmd.MrexPrcnPriceCatalogCmdApplicationTests - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:48 INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53331b42, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4278b7d9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@aa5d97d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ad7950e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f56e1d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@634d785, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@227e880f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@547716ab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e581fbe, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5e70770f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@898b23e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64b62fc8] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:49 WARN - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ext_lavergarav/.gradle/caches/modules-2/files-2.1/org.json/json/20171018/36ced462c97f0845b4a7b266a25cebe95d18baa3/json-20171018.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ext_lavergarav/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:49 INFO - Starting MrexPrcnPriceCatalogCmdApplicationTests on MOEXT_LAVER with PID 16876 (started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\Price\commnad\mrex-prcn-price-catalog-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:49 INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:52 INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:52 INFO - Finished Spring Data repository scanning in 148ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:54 INFO - Initializing DocumentClient with serviceEndpoint [https://tot-pe-mrex-prcn-price-catalog.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@12f57467, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:56 INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:58 INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:59 INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:59 INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:59 INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:45:59 INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:01 INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:02 INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:03 INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:04 INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:04 INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:04 INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:04 INFO - Started MrexPrcnPriceCatalogCmdApplicationTests in 16.015 seconds (JVM running for 18.713) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-19 10:46:05 INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 

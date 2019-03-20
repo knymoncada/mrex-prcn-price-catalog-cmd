@@ -21,7 +21,7 @@ public boolean addPrice(PriceAggregate priceAgg){
 	Price price = new Price();
 	price.setSku(priceAgg.priceRootentity.getSku());
 	
-	this.repository.save(price);
+	//this.repository.save(price);
 	log.info("Price Saved successful ", price);
 	return true;
 		
