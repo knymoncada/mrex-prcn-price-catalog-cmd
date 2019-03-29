@@ -59,6 +59,7 @@ ext {
 dependencies {
 		compile "corp.falabella.event:event-adapter-azureservicebus-support:${eventAdapterASBVersion}"
    	compileOnly("org.projectlombok:lombok:1.16.10")
+   	annotationProcessor("org.projectlombok:lombok:1.16.10")
    	implementation('org.springframework.boot:spring-boot-starter-actuator')
    	//compile "com.microsoft.azure:spring-data-cosmosdb:${azureVersion}"
    	compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
